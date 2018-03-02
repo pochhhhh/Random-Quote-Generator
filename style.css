@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+}
+
+#signature-container {
+  position: relative;
+  height: 100px;
+  font-size: 10px;
+  left: 550px;
+}
+
+#main-quote-box {
+  position: relative;
+  margin: 0 auto;
+  height: 200px;
+  width: 80%;
+  top: 180px;
+  border-radius: 5px;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+}
+
+#quote {
+  font-family: helvetica;
+  position: relative;
+  top: 10px;
+  color: black;
+}
+
+#said-by {
+  font-family: cursive;
+  position: relative;
+  top: 15px;
+  display: none;
+  color: white;
+  opacity: 1;
+}
+
+#generate-button {
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 40px;
+  position: relative;
+  top: 15px;
+  width: 150px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  outline: none;
+}
+
+.highlighted-button {
+  background-color: #e5e3e3 !important;
+}
+
+#twitter {
+  position: relative;
+  top: 20px;
+}
+
+#signature {
+  position: fixed;
+
+  bottom: 0;
+  text-align: center;
+  color: red;
+}
+
+#signature h3,
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#signature a:hover {
+  color: #e5e3e3;
+}
+
+hr {
+  width: 70%;
+  visibility: hidden;
+}
